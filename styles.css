@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #tree-container {
+    margin: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .node {
+    padding: 5px 10px;
+    margin: 5px 0;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .node:hover {
+    background-color: #c0c0c0;
+  }
+  
+  .children {
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+  }
+  
+  input[type="text"], button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
